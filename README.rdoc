@@ -7,7 +7,12 @@ This is based of the scrooloose repo, minus some menu settings and so on.
 Thanks to Rob Connery http://blog.wekeroad.com/ for these vim settings 
 
 == Installation
-The simplest thing you can do is to create a ".Vim" in your (~/) Home directory and clone the repository there.
+The simplest thing you can do is to clone this repo in your (~/) Home directory.
+This will create .Vim folder in your Home directory and copy the files there.
+By default, Vim will look for these files in your root, so you'll need to alias them like this:
+	ln -s ~/.Vim/vimrc .vimrc 
+	ln -s ~/.Vim/gvimrc .gvimrc
+
 Or you can (Rob Connerys info):
 The simplest thing you can do is to create a "VimSettings" directory somewhere on your drive. Mines in my home root (~/). 
 Just do a git clone from this repo and put it to your drive somewhere, then you need to setup some aliases to point to the vimrc and gvimrc files.
